@@ -1,0 +1,199 @@
+/*
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+
+//Chinese
+
+
+//select Language
+"Khmer" = "高棉语";
+"English" = "英语";
+"Chinese" = "中文";
+"SAVE" = "保存";
+
+
+//Register
+"Enter Phone Number" = "输入电话号码";
+"Next" = "下一个";
+
+//Verify
+"Please enter the verification code via to your phone number" = "“请通过输入验证码";
+"Verify Code" = " 你的电话号码”";
+"Don't get code?" = "验证码";
+"Resend code" = "没有代码？";
+
+
+//History
+
+"Order ID" = "订单编号";
+"Items Ordered" = "订购商品";
+"Total Amount" = "总金额";
+"Status" = "状态";
+"Completed" = "已完成";
+"Items Rejected" = "拒绝的物品";
+"Live Order" = "មុខកម្ម៉ងពិតប្រាកដ";
+"Accepted" = "បានទទួល";
+"History" = "ប្រវត្តិបញ្ជារទិញ";
+"FEED" = "មតិព័ត៌មាន";
+"Setting" = "កំណត់";
+"Items" = "物品";
+
+//Invite & Earn
+"Invite Detail" = "邀请详情";
+"Invite Friend via social media" = "通过社交媒体邀请朋友";
+"Invite Friend via SMSs" = "通过短信邀请朋友";
+"Invite with QR Code" = "用QR码邀请";
+"SHARE" = "分享";
+
+
+////Feed
+"Feed" = "饲料";
+"FEED DETAILS" = "食物详情";
+"Likes" = "喜欢";
+"Comments" = "注释";
+"min" = "分";
+"Review Previouse Comment" = "评论上一个评论";
+
+//Tabbar
+"Home" = "首页";
+"INVITE & EARN" = "邀请并赚取";
+"History" = "历史";
+"Notification" = "提名人";
+
+
+////settingsScreen
+
+"SETTINGS" = "设定值";
+"Credit" = "信用";
+"My Wallet" = "我的钱包";
+"Change Language" = "改变语言";
+"Support Center" = "支持中心";
+"Sign Out" = "唱出来";
+"Version"  = "版";
+"Are you sure you want to sign out?" = "您确定要退出吗";
+"Cancel" = "取消";
+"Yes" = "是";
+"Logout" = "登出";
+
+//credit screen
+"Credit" = "信用";
+"Current Balance" = "当前余额";
+"Add Credit" = "添加积分";
+"Top up history" = "充值历史";
+"Top Up" = "充值";
+"Top Up from wallet" = "从钱包充值";
+"Top Up From Agent A" = "从代理A充值";
+
+//my wallet
+"Balance (USD)" = "余额（美元）";
+"Recent Activity" = "近期活动";
+
+//Live order
+
+"Waiting For New Order" = "等待新订单";
+"New Order" = "新命令";
+"Today's Order" = "今天的訂單";
+"Cash Payment" = "現金支付";
+
+//Driver map
+
+"Total Price :" = "总价 :";
+"Delivery Fee :" = "发送费 :";
+"Payment : " = "付款 :";
+"SWIPE TO ARRIVE" = "刷到达";
+"Call Center" = "呼叫中心";
+"Call Shop" = "致电商店";
+"Order Detail" = "訂單詳情";
+
+//Restaurant Receipt
+
+"RECEIPT RESTAURANT" = "收據餐廳";
+"Restaurant Detail" = "餐廳詳情";
+"Total Payment" = "总付款";
+"Subtotal" = "小计";
+"PICKED UP" = "已接";
+"However deliver will auto confirm after check out from restaurant in 15 seconds" = "但是，送達會在15秒內從餐廳退房後自動確認";
+
+
+//Opening Time
+
+"RESTAURANT - OPENING TIME" = "餐厅-营业时间";
+"Always Open" = "永远开放";
+"Open Onselected Hour" =  "打开选定的时间";
+"Mon" = "周一";
+"Tue" = "周二";
+"Wed" = "周三";
+"Thu" = "周四";
+"Fri" = "周五";
+"Sat" = "周六";
+"Sun" = "周日";
+"To" = "至";
+"Estimated Cooking" = "估计烹饪";
+"Minute" = "分钟";
+"Estimated Delivery Time" = "预计送达时间";
+"Description" = "ការ描述";
+"Enter Description" = "输入说明";
+
+
+//Add Menu Item
+
+"Add Menu Item" =  "添加菜单项";
+"Active" = "活性";
+"Item Name" = "项目名称";
+"Category" = "类别";
+"Select Category" = "选择类别";
+"Item Price" = "项目价格";
+"Enter Price" = "输入价格";
+"Recommends" = "要求";
+"Select Recommend" = "选择命令";
+"Enter Discount" =  "输入折扣";
+"Extra" = "额外";
+"eg:.Coffee Sugar=15%, coffee 75%" = "例如：。咖啡糖= 15％，咖啡75％";
+"Discount Items" = "折扣品";
+"None" = "没有";
+"Percent" = "百分";
+"Coupon" = "优惠券";
+"Discount Percentage"  = "折扣率";
+"Enter Percentage" = "输入百分比";
+"Coupon Code" = "优惠券代码";
+"Enter Coupon Code" = "输入优惠券代码";
+"Item Image" = "物品图片";
+"Image" = "图片";
+"Save" = "保存";
+
+
+//List Food Category
+"LIST FOOD" = "列出食物";
+
+"LIST FOOD CATEGORY"  = "列出食物类别";
+"ADD" = "加";
+"Add Category" = "添加类别";
+"Category Name" = "分类名称";
+"Descripton" = "描述";
+
+
+//Report
+
+"Report"  =  "报告";
+"Daily"   =   "日常";
+"Weekly" =   "每周";
+"Monthly"  =   "每月一次";
+"Annual"   =   "年刊";
+"Order Statistics" =  "订单统计";
+"Total Order Today"   =  "今日总订单";
+"Total Order Yesterday"  =   "昨天总订单";
+"Total Order This Week"  =  "本周总订单";
+"Total Order Last Week"   = "上周总订单";
+"Total Order This Month"   =     "本月总订单";
+"Total Order Last Month"    =  "上个月的总订单";
+"Total Order This Year"    =  "今年总订单";
+"Total Order Last Year"  = "去年总订单";
+"Total Order" =    "总订单";
+"Daily Order Statistics"  =    "每日订单统计";
+"Order statistics - Course" =        "订单统计-课程";
+"Qty"  =   "数量";
+"Amount" = "量";

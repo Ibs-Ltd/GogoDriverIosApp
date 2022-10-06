@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemQuantityTableViewCell" rowHeight="36" id="KGk-i7-Jjw" customClass="ItemQuantityTableViewCell" customModule="User" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="469" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="469" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="13E-fs-r1K">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="99.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fried" translatesAutoresizingMaskIntoConstraints="NO" id="dTM-Yw-x9a">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="hVy-Oo-HKx"/>
+                                    <constraint firstAttribute="width" secondItem="dTM-Yw-x9a" secondAttribute="height" id="ssD-ne-5wg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fried eal hot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEf-90-jXY">
+                                <rect key="frame" x="115" y="10" width="95" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 2.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DJf-O5-uxl">
+                                <rect key="frame" x="115" y="40.5" width="49.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="WYt-mU-Xru">
+                                <rect key="frame" x="115" y="71" width="150" height="21"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXZ-Tr-Mpe">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="30 min" image="timerFood">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XHr-Sl-eHe">
+                                        <rect key="frame" x="78" y="0.0" width="72" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="30 min" image="scooterIcon">
+                                            <color key="titleColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OKA-qi-Joq">
+                                <rect key="frame" x="373" y="71" width="86" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jsc-jr-vUk">
+                                        <rect key="frame" x="0.0" y="0.0" width="15.5" height="22"/>
+                                        <state key="normal" image="fav"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BCD-X2-U5j">
+                                        <rect key="frame" x="23.5" y="0.0" width="15.5" height="22"/>
+                                        <state key="normal" image="like"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4db-GR-ZSe">
+                                        <rect key="frame" x="47" y="0.0" width="15.5" height="22"/>
+                                        <state key="normal" image="comment"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="01f-5o-I8e">
+                                        <rect key="frame" x="70.5" y="0.0" width="15.5" height="22"/>
+                                        <state key="normal" image="share"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="chM-E4-c9X" customClass="GMStepper" customModule="GMStepper">
+                                <rect key="frame" x="373" y="10" width="86" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="PPM-Oi-2wc"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="value">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="minimumValue">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="maximumValue">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="stepValue">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="autorepeat" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showIntegerIfDoubleIsInteger" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelBackgroundColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="labelTextColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonsTextColor">
+                                        <color key="value" red="0.0" green="0.97647058819999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="leftButtonText" value="-"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="rightButtonText" value="+"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.29999999999999999"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.0" green="0.7399902344" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="buttonsBackgroundColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WYt-mU-Xru" firstAttribute="top" secondItem="DJf-O5-uxl" secondAttribute="bottom" constant="10" id="0Lh-Yh-zCr"/>
+                            <constraint firstItem="nEf-90-jXY" firstAttribute="top" secondItem="13E-fs-r1K" secondAttribute="top" constant="10" id="9DJ-K4-d36"/>
+                            <constraint firstAttribute="trailing" secondItem="OKA-qi-Joq" secondAttribute="trailing" constant="10" id="FYz-ue-z42"/>
+                            <constraint firstItem="WYt-mU-Xru" firstAttribute="leading" secondItem="nEf-90-jXY" secondAttribute="leading" id="Pvx-NP-Q7w"/>
+                            <constraint firstItem="DJf-O5-uxl" firstAttribute="top" secondItem="nEf-90-jXY" secondAttribute="bottom" constant="10" id="RXt-c4-9wo"/>
+                            <constraint firstItem="nEf-90-jXY" firstAttribute="leading" secondItem="dTM-Yw-x9a" secondAttribute="trailing" constant="15" id="Tj0-cY-Oav"/>
+                            <constraint firstItem="dTM-Yw-x9a" firstAttribute="leading" secondItem="13E-fs-r1K" secondAttribute="leading" id="W93-he-yu6"/>
+                            <constraint firstItem="chM-E4-c9X" firstAttribute="leading" secondItem="OKA-qi-Joq" secondAttribute="leading" id="bU5-de-JOf"/>
+                            <constraint firstItem="DJf-O5-uxl" firstAttribute="leading" secondItem="nEf-90-jXY" secondAttribute="leading" id="eJs-tm-XTT"/>
+                            <constraint firstItem="chM-E4-c9X" firstAttribute="top" secondItem="nEf-90-jXY" secondAttribute="top" id="gFl-6f-K6G"/>
+                            <constraint firstAttribute="trailing" secondItem="chM-E4-c9X" secondAttribute="trailing" constant="10" id="jmI-75-j2b"/>
+                            <constraint firstItem="dTM-Yw-x9a" firstAttribute="top" secondItem="13E-fs-r1K" secondAttribute="top" id="sIn-zE-nb5"/>
+                            <constraint firstItem="OKA-qi-Joq" firstAttribute="top" secondItem="WYt-mU-Xru" secondAttribute="top" id="tQi-Nv-sf1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="13E-fs-r1K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7SF-kz-T1m"/>
+                    <constraint firstAttribute="trailing" secondItem="13E-fs-r1K" secondAttribute="trailing" id="Du3-oM-TDX"/>
+                    <constraint firstAttribute="bottom" secondItem="13E-fs-r1K" secondAttribute="bottom" id="KXp-FX-jeI"/>
+                    <constraint firstItem="13E-fs-r1K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="k1o-Gk-RgU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="142.75362318840581" y="45.535714285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="comment" width="14.5" height="14.5"/>
+        <image name="fav" width="15.5" height="15.5"/>
+        <image name="fried" width="74" height="64"/>
+        <image name="like" width="14.5" height="14.5"/>
+        <image name="scooterIcon" width="19" height="14.5"/>
+        <image name="share" width="15.5" height="15.5"/>
+        <image name="timerFood" width="17" height="15.5"/>
+    </resources>
+</document>

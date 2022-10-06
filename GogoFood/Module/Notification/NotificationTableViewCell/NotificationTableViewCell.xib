@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="KGk-i7-Jjw" customClass="NotificationTableViewCell" customModule="Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="367" height="146"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="367" height="145.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zS1-Tr-760">
+                        <rect key="frame" x="0.0" y="0.0" width="367" height="145.5"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="promotion" translatesAutoresizingMaskIntoConstraints="NO" id="Jh3-gK-U2r">
+                                <rect key="frame" x="10" y="12" width="16" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="zth-Vc-UOf"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Promotion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKc-M5-OiK">
+                                <rect key="frame" x="36" y="15" width="79" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulation you got discount 15%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuO-JO-5LD">
+                                <rect key="frame" x="36" y="39" width="238" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22-11-2019" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="asI-W1-ffI">
+                                <rect key="frame" x="287" y="15" width="75" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZJ-qe-AgW">
+                                <rect key="frame" x="346" y="39" width="16" height="22"/>
+                                <state key="normal" image="downArrow"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nmt-kv-DoM">
+                                <rect key="frame" x="0.0" y="66" width="367" height="79.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zomato" translatesAutoresizingMaskIntoConstraints="NO" id="4d6-zP-Xx7">
+                                        <rect key="frame" x="0.0" y="0.0" width="367" height="79.5"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="4d6-zP-Xx7" firstAttribute="top" secondItem="Nmt-kv-DoM" secondAttribute="top" id="MqQ-GU-rPW"/>
+                                    <constraint firstAttribute="bottom" secondItem="4d6-zP-Xx7" secondAttribute="bottom" id="XNp-UT-upP"/>
+                                    <constraint firstItem="4d6-zP-Xx7" firstAttribute="leading" secondItem="Nmt-kv-DoM" secondAttribute="leading" id="far-SX-Mtc"/>
+                                    <constraint firstAttribute="trailing" secondItem="4d6-zP-Xx7" secondAttribute="trailing" id="rjp-0d-ZAg"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="asI-W1-ffI" secondAttribute="trailing" constant="5" id="3aV-Bf-eU3"/>
+                            <constraint firstItem="CuO-JO-5LD" firstAttribute="leading" secondItem="pKc-M5-OiK" secondAttribute="leading" id="BsD-Gh-dgA"/>
+                            <constraint firstItem="CuO-JO-5LD" firstAttribute="top" secondItem="pKc-M5-OiK" secondAttribute="bottom" constant="3" id="CzH-bB-edZ"/>
+                            <constraint firstItem="Jh3-gK-U2r" firstAttribute="top" secondItem="zS1-Tr-760" secondAttribute="top" constant="12" id="FKI-CT-m2w"/>
+                            <constraint firstItem="Jh3-gK-U2r" firstAttribute="leading" secondItem="zS1-Tr-760" secondAttribute="leading" constant="10" id="GRD-Wb-CdJ"/>
+                            <constraint firstItem="wZJ-qe-AgW" firstAttribute="top" secondItem="asI-W1-ffI" secondAttribute="bottom" constant="7" id="Ifu-p0-LZH"/>
+                            <constraint firstAttribute="trailing" secondItem="wZJ-qe-AgW" secondAttribute="trailing" constant="5" id="Okz-Qj-PER"/>
+                            <constraint firstItem="Nmt-kv-DoM" firstAttribute="top" secondItem="wZJ-qe-AgW" secondAttribute="bottom" constant="5" id="ZsN-cq-xSs"/>
+                            <constraint firstItem="Nmt-kv-DoM" firstAttribute="top" secondItem="CuO-JO-5LD" secondAttribute="bottom" constant="10" id="a8m-zj-Xzz"/>
+                            <constraint firstAttribute="bottom" secondItem="Nmt-kv-DoM" secondAttribute="bottom" id="bEn-ra-cnK"/>
+                            <constraint firstItem="pKc-M5-OiK" firstAttribute="top" secondItem="zS1-Tr-760" secondAttribute="top" constant="15" id="bGr-eD-xH2"/>
+                            <constraint firstAttribute="trailing" secondItem="Nmt-kv-DoM" secondAttribute="trailing" id="eU5-ry-CeR"/>
+                            <constraint firstItem="asI-W1-ffI" firstAttribute="top" secondItem="pKc-M5-OiK" secondAttribute="top" id="f0E-9w-uk5"/>
+                            <constraint firstItem="Nmt-kv-DoM" firstAttribute="leading" secondItem="zS1-Tr-760" secondAttribute="leading" id="lKr-3F-hTO"/>
+                            <constraint firstItem="wZJ-qe-AgW" firstAttribute="top" secondItem="CuO-JO-5LD" secondAttribute="top" id="ljJ-jP-s1i"/>
+                            <constraint firstItem="Nmt-kv-DoM" firstAttribute="top" secondItem="Jh3-gK-U2r" secondAttribute="bottom" constant="14" id="p7R-bf-b6u"/>
+                            <constraint firstItem="pKc-M5-OiK" firstAttribute="leading" secondItem="Jh3-gK-U2r" secondAttribute="trailing" constant="10" id="sc0-Ns-r2o"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zS1-Tr-760" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0Gs-ox-YFX"/>
+                    <constraint firstAttribute="bottom" secondItem="zS1-Tr-760" secondAttribute="bottom" id="U7z-XG-teA"/>
+                    <constraint firstItem="zS1-Tr-760" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vY7-4E-o21"/>
+                    <constraint firstAttribute="trailing" secondItem="zS1-Tr-760" secondAttribute="trailing" id="yQo-yt-m7y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="downArrayBtn" destination="wZJ-qe-AgW" id="X1B-dR-qcI"/>
+                <outlet property="imageView" destination="Jh3-gK-U2r" id="oGl-5b-SCv"/>
+                <outlet property="textLabel" destination="pKc-M5-OiK" id="QdM-VD-K3M"/>
+                <outlet property="viewImageView" destination="4d6-zP-Xx7" id="hDn-k6-Yqx"/>
+            </connections>
+            <point key="canvasLocation" x="155.79710144927537" y="77.678571428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Zomato" width="98" height="67"/>
+        <image name="downArrow" width="12.5" height="7.5"/>
+        <image name="promotion" width="22.5" height="24"/>
+    </resources>
+</document>

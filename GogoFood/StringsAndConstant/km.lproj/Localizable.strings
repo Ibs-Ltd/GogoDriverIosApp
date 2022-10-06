@@ -1,0 +1,198 @@
+/* 
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+//Khmer
+
+//select Language
+"Khmer" = "ខ្មែរ";
+"English" = "អង់គ្លេស";
+"Chinese" = "ចិន";
+"SAVE" = "រក្សាទុក";
+
+
+//Register
+"Enter Phone Number" = "បញ្ចូលលេខទូរស័ព្ទ";
+"Next" = "បន្ទាប់";
+
+//Verify
+"Please enter the verification code via to your phone number" = "សូមបញ្ចូលលេខកូដបញ្ជាក់តាមរយៈលេខទូរស័ព្ទរបស់អ្នក";
+"Verify Code" = "លេខកូដបញ្ជាក់";
+"Don't get code?" = "មិនទទួលបានលេខកូដ";
+"Resend code" = "សូមផ្ញើរលេខកូដម្តងទៀត";
+
+////History
+"Order ID" = "លេខរៀងការកម្ម៉ង់";
+"Items Ordered" = "មុខកម្ម៉ង់";
+"Total Amount" = "ចំនួនសរុប";
+"Status" = "ស្ថានភាព";
+"Completed" = "រួចរាល់";
+"Items Rejected" = "មុខកម្ម៉ង់ត្រូវបានបដិសេធ";
+"Live Order" = "មុខកម្ម៉ងពិតប្រាកដ";
+"Accepted" = "បានទទួល";
+"History" = "ប្រវត្តិបញ្ជារទិញ";
+"FEED" = "មតិព័ត៌មាន";
+"Setting" = "កំណត់";
+"Items" = "មុខកម្ម៉ង់";
+
+//Invite & Earn
+"Invite Detail" = "ព័ត៌មានពិស្តារ";
+"Invite Friend via social media" = "ណែនាំមិត្តតាមបណ្តាញសង្គម";
+"Invite Friend via SMSs" = "ណែនាំមិត្តតាមសារទូរស័ព្ទ";
+"Invite with QR Code" = "ណែនាំតាមQRកូដ";
+"SHARE" = "ចែករម្លែក";
+
+
+////Feed
+"Feed" = "មតិព័ត៌មាន";
+"FEED DETAILS" = "ព័ត៌មានលម្អិតអំពីអាហារ";
+"Likes" = "ចូលចិត្ត";
+"Comments" = "យោបល់";
+"min" = "នាទី";
+"Review Previouse Comment" = "ពិនិត្យឡើងវិញយោបល់មុនៗ";
+
+
+//Tabbar
+"Home" = "ទំព័រដើម";
+"INVITE & EARN" = "ណែនាំបានលុយ";
+"History" = "ប្រវត្តិបញ្ជាទិញ";
+"Notification" = "សេចក្តីជូនដំណឹង";
+
+
+////settingsScreen
+"SETTINGS" = "ការកំណត់";
+"Credit" = "ការបញ្ចូលទឹកប្រាក់";
+"My Wallet" = "កាបូបលុយខ្ញុំ";
+"Change Language" = "ផ្លាស់ផ្តូភាសារ";
+"Support Center" = "សេវាកម្មបម្រើអតិថិជន";
+"Sign Out" = "ចាកចេញ";
+"Version"  = "កំណែទម្រង់";
+
+
+//credit screen
+"Credit" = "ការបញ្ចូលទឹកប្រាក់";
+"Current Balance" = "បញ្ចូលទឹកប្រាក់";
+"Add Credit" = "បន្ថែមទឹកប្រាក់";
+"Top up history" = "ប្រវត្តិបញ្ចូលទឹកប្រាក់";
+"Top Up" = "បញ្ចូលទឹកប្រាក់";
+"Top Up from wallet" = "បញ្ចូលទឹកប្រាក់មកពីការបូបលុយ";
+"Top Up From Agent A" = "បញ្ចូលទឹកប្រាក់ពីភ្នាក់ងារ";
+
+//my wallet
+
+"Balance (USD)" = "សមតុល្យជាប្រាក់ដុល្លារ";
+"Recent Activity" = "សកម្មភាពថ្មីៗ";
+
+//Live order
+
+"Waiting for New Order" = "រង់ចាំការបញ្ជាទិញថ្មី";
+"New Order" = "ការ​កុ​ម្ម​ង់​ថ្មី";
+"Today's Order" = "បទបញ្ជាថ្ងៃនេះ";
+"Cash Payment" = "ការទូទាត់ជាសាច់ប្រាក់";
+
+//Driver map
+
+"Total Price :" = "តម្លៃសរុប :";
+"Delivery Fee :" = "ថ្លៃឈ្នួលដឹកជញ្ជូន :";
+"Payment : " = "ការទូទាត់ :";
+"SWIPE TO ARRIVE" = "អូសមកដល់";
+"Call Center" = "ហៅមកក្រុមហ៊ុន";
+"Call Shop" = "ហៅទៅភោជនីយដ្ឋាន";
+"Order Detail" = "ព័ត៌មានលំអិតការបញ្ជាទិញ";
+
+//Restaurant Receipt
+
+"RECEIPT RESTAURANT" = "អ្នកផ្តល់សំណង";
+"Restaurant Detail" = "ព័ត៌មានលំអិតភោជនីយដ្ឋាន";
+"Total Payment" = "ប្រាក់ទូទាត់សរុប";
+"Subtotal" = "សរុបរង";
+"PICKED UP" = "រើស​បាន";
+"However deliver will auto confirm after check out from restaurant in 15 seconds" = "ទោះយ៉ាងណាការចែកចាយនឹងបញ្ជាក់ដោយស្វ័យប្រវត្តិបន្ទាប់ពីឆែកចេញពីភោជនីយដ្ឋានក្នុងរយៈពេល ១៥ វិនាទី";
+
+
+//logout
+"Are you sure you want to sign out?" = "តើអ្នកប្រាកដថាត្រូវចាកចេញមែនទេ?";
+"Cancel" = "លុបចោល";
+"Yes" = "បាទ / ចាស";
+"Logout" = "ចាកចេញ";
+
+
+
+//Opening Time
+
+"RESTAURANT - OPENING TIME" = "ភោជនីដ្ឋាន ម៉ោងបើកលក់";
+"Always Open" = "តែងតែបើកលក់ជានិច្ច";
+"Open Onselected Hour" =  "បើកលក់តាមម៉ោងជ្រើសរើស";
+"Mon" = "ច័ន្ទ";
+"Tue" = "អង្គារ";
+"Wed" = "ពុធ";
+"Thu" = "ព្រហស្បតិ៍";
+"Fri" = "សុក្រ";
+"Sat" = "សៅរ៍";
+"Sun" = "អាទិត្យ";
+"To" = "ទៅ";
+"Estimated Cooking" = "ប៉ាន់ស្មានពេលចំអិន";
+"Minute" = "នាទី";
+"Estimated Delivery Time" = "ប៉ានស្មានរយៈពេលដឹកជញ្ជូន";
+"Description" = "ការពិពណ៌នា";
+"Enter Description" = "បញ្ចូលការពិពណ៌នា";
+
+//Add Menu Item
+
+"Add Menu Item" =  "ម៉ឺនុយបន្ថែមមុខកម្ម៉ង់";
+"Active" = "បើក";
+"Item Name" = "ឈ្មោះមុខកម្ម៉ង";
+"Category" = "ប្រភេទ";
+"Select Category" = "ជ្រើសរើសប្រភេទ";
+"Item Price" = "តម្លៃមុខកម្ម៉ង";
+"Enter Price" = "បញ្ចូលតម្លៃ";
+"Recommends" = "ណែនាំជូន";
+"Select Recommend" = "ជ្រើសរើសម្ហូបណែនាំ";
+"Enter Discount" =  "បញ្ចូលបញ្ចុះតម្លៃ";
+"Extra" = "បន្ថែម";
+"eg:.Coffee Sugar=15%, coffee 75%" = "ឧទាហរណ៍ ស្ករ១៥% , កាហ្វេ៧៥%";
+"Discount Items" = "មុខកម្ម៉ង់បញ្ចុះតម្លៃ";
+"None" = "គ្មាន";
+"Percent" = "ភាគរយ";
+"Coupon" = "គូប៉ុង";
+"Discount Percentage"  = "ភាគរយបញ្ចុះតម្លៃ";
+"Enter Percentage" = "បញ្ចូលភាគរយ";
+"Coupon Code" = "លេខកូដគូប៉ុង";
+"Enter Coupon Code" = "បញ្ចូលលេខកូដគូប៉ុង";
+"Item Image" = "រូបភាពមុខកម្ម៉ង់";
+"Image" = "រូបភាព";
+"Save" = "រក្សាទុក";
+
+//List Food Category
+
+"LIST FOOD" = "រាយម្ហូប";
+"LIST FOOD CATEGORY"  = "តារាងប្រភេទមុខម្ហូប";
+"ADD" = "បន្ថែម";
+"Add Category" = "បន្ថែមប្រភេទ";
+"Category Name" = "ឈ្មោះប្រភេទ";
+"Descripton" = "ការពិពណ៌នា";
+
+//Report
+
+"Report"  =  "របាយការណ៍";
+"Daily"   = "ប្រចាំថ្ងៃ";
+"Weekly"   = "ប្រចាំសប្តាហ៍";
+"Monthly"   = "ប្រចាំខែ";
+"Annual"   = "ប្រចាំឆ្នាំ";
+"Order Statistics" =   "ស្ថិតិការកម្ម៉ង់";
+"Qty"  =  "បរិមាណ";
+"Amount"   = "ចំនួន";
+"Total Order Today"    = "ចំនួនកម្ម៉ងសរុបថ្ងៃនេះ";
+"Total Order Yesterday"  =  "ចំនួនកម្ម៉ងសរុបម្សិលម៉ិញ";
+"Total Order This Week"  =  "ចំនួនកម្ម៉ងសរុបសប្តាហ៍នេះ";
+"Total Order Last Week"  =  "ចំនួនកម្ម៉ងសរុបសប្តាហ៍មុន";
+"Total Order This Month" =   "ចំនួនកម្ម៉ងសរុបខែនេះ";
+"Total Order Last Month"   = "ចំនួនកម្ម៉ងសរុបខែមុន";
+"Total Order This Year"  =  "ចំនួនកម្ម៉ងសរុបឆ្នាំនេះ";
+"Total Order Last Year"  =  "ចំនួនកម្ម៉ងសរុបឆ្នាំមុន";
+"Total Order"   = "ចំនួនកម្ម៉ង់សរុប";
+"Daily Order Statistics" =  "ស្ថិតិការកម្ម៉ង់ប្រចាំថ្ងៃ";
+"Order statistics - Course" =   "ស្ថិតិកម្ម៉ង់ វគ្គ";

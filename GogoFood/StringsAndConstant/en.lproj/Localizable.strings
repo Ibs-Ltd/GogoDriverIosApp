@@ -1,0 +1,200 @@
+/* 
+  Localizable.strings
+  GogoFood
+
+  Created by YOGESH BANSAL on 11/02/20.
+  Copyright © 2020 YOGESH BANSAL. All rights reserved.
+*/
+
+
+//English
+
+//select Language
+"Khmer" = "Khmer";
+"English" = "English";
+"Chinese" = "Chinese";
+"SAVE" = "SAVE";
+//Register
+"Enter Phone Number" = "Enter Phone Number";
+"Next" = "Next";
+
+//Verify
+"Please enter the verification code via to your phone number" = "Please enter the verification code via to your phone number";
+"Verify Code" = "Verify Code";
+"Don't get code?" = "Don't get code?";
+"Resend code" = "Resend code";
+
+//History
+
+"Order ID" = "Order ID";
+"Items Ordered" = "Items Ordered";
+"Total Amount" = "Total Amount";
+"Status" = "Status";
+"Completed" = "Completed";
+"Items Rejected" = "Items Rejected";
+"Items" = "Items";
+
+
+//Invite & Earn
+"Invite Detail" = "Invite Detail";
+"Invite Friend via social media" = "Invite Friend via social media";
+"Invite Friend via SMSs" = "Invite Friend via SMSs";
+"Invite with QR Code" = "Invite with QR Code";
+"SHARE" = "SHARE";
+
+
+//Tabbar
+"Home" = "Home";
+"INVITE & EARN" = "INVITE & EARN";
+"History" = "History";
+"Notification" = "Notification";
+
+//Feed
+
+"Feed" = "Feed";
+"FEED DETAILS" = "FEED DETAILS";
+"Likes" = "Likes";
+"Comments" = "Comments";
+"min" = "min";
+"Review Previouse Comment" = "Review Previouse Comment";
+
+//Settings
+
+"SETTINGS" = "SETTINGS";
+"Credit" = "Credit";
+"My Wallet" = "My Wallet";
+"Change Language" = "Change Language";
+"Support Center" = "Support Center";
+"Sign Out" = "Sign Out";
+"Version"  = "Version";
+"Are you sure you want to sign out?" = "Are you sure you want to sign out?";
+"Cancel" = "Cancel";
+"Yes" = "Yes";
+"Logout" = "Logout";
+
+
+//credit screen
+"Credit" = "Credit";
+"Current Balance" = "Current Balance";
+"Add Credit" = "Add Credit";
+"Top up history" = "Top up history";
+"Top Up" = "Top Up";
+"Top Up from wallet" = "Top Up from wallet";
+"Top Up From Agent A" = "Top Up From Agent A";
+
+//my wallet
+
+"Balance (USD)" = "Balance (USD)";
+"Recent Activity" = "Recent Activity";
+
+//Live order
+
+"Waiting For New Order" = "Waiting For New Order";
+"New Order" = "New Order";
+"Today's Order" = "Today's Orders";
+"Cash Payment" = "Cash Payment";
+
+
+//Driver map
+
+"Total Price :" = "Total Price :";
+"Delivery Fee :" = "Delivery Fee :";
+"Payment : " = "Payment : ";
+"SWIPE TO ARRIVE" = "SWIPE TO ARRIVE";
+"Call Center" = "Call Center";
+"Call Shop" = "Call Shop";
+"Order Detail" = "Order Detail";
+
+//Restaurant Receipt
+
+"RECEIPT RESTAURANT" = "RECEIPT RESTAURANT";
+"Restaurant Detail" = "Restaurant Detail";
+"Total Payment" = "Total Payment";
+"Subtotal" = "Subtotal";
+"PICKED UP" = "PICKED UP";
+"However deliver will auto confirm after check out from restaurant in 15 seconds" = "However deliver will auto confirm after check out from restaurant in 15 seconds";
+
+
+//Opening Time
+
+"RESTAURANT - OPENING TIME" = "RESTAURANT - OPENING TIME";
+"Always Open" = "Always Open";
+"Open Onselected Hour" =  "Open Onselected Hour";
+"Mon" = "Mon";
+"Tue" = "Tue";
+"Wed" = "Wed";
+"Thu" = "Thu";
+"Fri" = "Fri";
+"Sat" = "Sat";
+"Sun" = "Sun";
+"To" = "To";
+"Estimated Cooking" = "Estimated Cooking";
+"Minute" = "Minute";
+"Estimated Delivery Time" = "Estimated Delivery Time";
+"Description" = "Description";
+"Enter Description" = "Enter Description";
+
+//Add Menu Item
+
+"Add Menu Item" =  "Add Menu Item";
+"Active" = "Active";
+"Item Name" = "Item Name";
+"Category" = "Category";
+"Select Category" = "Select Category";
+"Item Price" = "Item Price";
+"Enter Price" = "Enter Price";
+"Recommends" = "Recommend";
+"Select Recommend" = "Select Recommend";
+"Enter Discount" =  "Enter Discount";
+"Extra" = "Extra";
+"eg:.Coffee Sugar=15%, coffee 75%" = "eg:.Coffee Sugar=15%, coffee 75%";
+"Discount Items" = "Discount Items";
+"None" = "None";
+"Percent" = "Percent";
+"Coupon" = "Coupon";
+"Discount Percentage"  = "Discount Percentage";
+"Enter Percentage" = "Enter Percentage";
+"Coupon Code" = "Coupon Code";
+"Enter Coupon Code" = "Enter Coupon Code";
+"Item Image" = "Item Image";
+"Image" = "Image";
+"Save" = "Save";
+
+
+//List Food Category
+
+"LIST FOOD" = "LIST FOOD";
+"LIST FOOD CATEGORY"  = "List Food Category";
+"ADD" = "ADD";
+"Add Category" = "Add Category";
+"Category Name" = "Category Name";
+"Descripton" = "Descripton";
+"Cancel" = "Cancel";
+"Save" =  "Save";
+
+
+//Report
+
+"Report" =  "Report";
+"Daily" = "Daily";
+"Weekly" = "Weekly";
+"Monthly" = "Monthly";
+"Annual" = "Annual";
+"Order Statistics" =  "Order Statistics";
+"Qty" = "Qty";
+"Amount" = "Amount";
+"Total Order Today" = "Total Order Today";
+"Total Order Yesterday" = "Total Order Yesterday";
+"Total Order This Week" = "Total Order This Week";
+"Total Order Last Week" = "Total Order Last Week";
+"Total Order This Month" =  "Total Order This Month";
+"Total Order Last Month" = "Total Order Last Month";
+"Total Order This Year" = "Total Order This Year";
+"Total Order Last Year" = "Total Order Last Year";
+"Total Order" = "Total Order";
+"Daily Order Statistics" = "Daily Order Statistics";
+"Order statistics - Course" = "Order statistics - Course";
+
+
+
+
